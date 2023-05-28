@@ -35,7 +35,7 @@ function updateCountdown() {
             // Countdown completed
             stopCountdown();
             resetCountdown();
-  alert("Countdown completed!");
+  alert("Time Over!");
             return;
           }
         }
