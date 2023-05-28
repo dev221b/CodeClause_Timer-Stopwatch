@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="index.html"><button><h1 style="color: #171717a3;">STOP WATCH</h1></button></a>
+        <a href="timer.html"><button id="highlight"><h1>TIMER</h1></button></a> 
+    </div>
+   
+    <div class="Container">
+        <div class="timer" id="timer" style="font-family: 'Orbitron', sans-serif">
+            <span id="hours">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+        </div>
+    
+        <div class="input-container">
+            <input type="number" id="input-hours" placeholder="Hours">
+            <input type="number" id="input-minutes" placeholder="Minutes">
+            <input type="number" id="input-seconds" placeholder="Seconds">
+        </div>
+            <button class='Btn' id="btnStart" onclick="startCountdown()">START</button>
+            <button class='Btn' id="btnStop" onclick="stopCountdown()">STOP</button>
+            <button class='Btn' id="btnReset" onclick="resetCountdown()">RESET</button>
+        
+
+    </div>
+
+    
+    <script src="timer_script.js"></script>
+
+</body>
+</html>

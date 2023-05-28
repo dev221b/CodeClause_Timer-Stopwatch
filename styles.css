@@ -1,0 +1,101 @@
+:root{
+    color: black;
+    background-color: rgb(162, 179, 192);
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 28.5rem;
+}
+.header button{
+    background-color: rgb(162, 179, 192);
+    cursor: pointer;
+    border: none;
+}
+h1{
+    text-align: center;
+    font-family: Orbitron;
+    font-weight: bold;
+    
+}
+#highlight{
+    color: #212186;
+    border: none;
+    border-bottom: 0.36rem solid rgb(33, 33, 33);
+    /* border-bottom: 0.36rem solid rgb(33, 33, 33); */
+}
+
+.Btn
+{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(165, 162, 162);
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    margin-top: 120px;
+    margin-left: 300px;
+    cursor: pointer;
+    border: 0.1rem solid black;
+    
+}
+.Btn:hover{
+    background-color: rgb(144, 144, 144);
+    transform: scale(1.1)
+}
+
+/* #btnReset:hover{
+    /* background-color: rgb(205, 228, 76); */
+    /* transform: scale(1.05)
+}
+
+#btnStart:hover
+{
+    /* background-color: rgb(54, 141, 62); */
+    /* transform: scale(1.2) */
+/* } */ 
+/* #btnStop:hover */
+/* { */
+    /* background-color: rgb(230, 54, 54); */
+    /* transform: scale(1.2) */
+/* } */
+
+
+
+.time
+{
+    font-size: 38px;
+    margin-left: 640px;
+    margin-top: 160px;
+}
+.input-container{
+    margin-top: 5rem;
+    /* width: 50%; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.input-container input{
+    margin: 1rem;
+    width: 10rem;
+    height: 1.8rem;
+    text-align: center;
+    border-radius: 0.25rem;
+}
+
+.timer {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
